@@ -30,3 +30,18 @@
   background-color: var(--primary);
   border: 1px solid var(--gray-light);
 }
+
+.arrow {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.down {
+  transition: all 0.15s ease-in-out;
+  transform: rotate(90deg);
+}
+
+.primary svg,
+.ghost:hover svg {
+  fill: var(--white);
+}
