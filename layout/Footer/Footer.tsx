@@ -8,7 +8,7 @@ export interface FooterProps
   className?: string;
 }
 
-export const Footer = ({ className, ...props }) => {
+export const Footer = ({ className, ...props }: FooterProps): JSX.Element => {
   return (
     <div className={cn(className, styles.footer)} {...props}>
       <div>OwlTop © 2020 - {format(new Date(), 'yyyy')} Все права защищены</div>
