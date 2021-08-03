@@ -1,0 +1,17 @@
+.hh {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 30px;
+}
+
+.count {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.salary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding-top: 20px;
+}

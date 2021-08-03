@@ -1,0 +1,5 @@
+.advantage {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 40px;
+}
